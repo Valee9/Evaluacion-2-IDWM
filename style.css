@@ -1,8 +1,13 @@
-.card-title {
-    text-align: center;
-    font-style: bold;
-}
+/*Estilo para la clase card que contiene un producto*/
 .card {
     padding: 10px ;
     margin: 10px;
+}
+/*Estilo para que cuando pase el cursor por encima de la card aumente un poco su tamaño*/
+.card:hover {
+    transform: scale(1.05);
+}
+/*Estilo para que cuando pase el cursor por encima del botón aumente un poco su tamaño*/
+button:hover {
+    transform: scale(1.05);
 }
